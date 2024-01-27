@@ -1,0 +1,13 @@
+<h1>Hi</h1>
+
+<div class="border rounded p-4 my-4">
+<p><%= @question %></p>
+<p>-You</p>
+</div>
+<br>
+<div class="border rounded p-4 my-4">
+<p><%= @answer %>
+<p>-Your Coach</p>
+</div>
+<br>
+<%= link_to("Ask a new question", ask_path) %>
